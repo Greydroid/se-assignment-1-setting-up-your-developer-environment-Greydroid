@@ -1,0 +1,137 @@
+Developer Environment Setup
+1. Select Your Operating System (OS)
+Step 1: Download Windows 11
+I went to the Windows 11 download page.
+I clicked on "Download Now" under the Windows 11 Installation Assistant.
+I followed the prompts to download and install Windows 11.
+2. Install a Text Editor or Integrated Development Environment (IDE)
+Step 2: Download and Install Visual Studio Code
+I visited the Visual Studio Code download page.
+I selected the appropriate version for my operating system and downloaded the installer.
+I ran the installer and followed the installation prompts.
+3. Set Up Version Control System
+Step 3: Install Git
+I went to the Git download page.
+I downloaded the installer for my operating system.
+I ran the installer and followed the installation prompts.
+Step 4: Configure Git
+I opened Git Bash (installed with Git).
+
+I set my username and email:
+
+sh
+Copy code
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+Step 5: Create a GitHub Account
+I went to GitHub.
+I clicked on "Sign up" and followed the prompts to create an account.
+Step 6: Initialize a Git Repository
+I opened Visual Studio Code.
+
+I opened a new terminal within VS Code.
+
+I navigated to my project directory:
+
+sh
+Copy code
+cd path/to/your/project
+I initialized a Git repository:
+
+sh
+Copy code
+git init
+I created a .gitignore file and added files or directories to ignore.
+
+I added and committed my initial files:
+
+sh
+Copy code
+git add .
+git commit -m "Initial commit"
+Step 7: Push to GitHub
+I created a new repository on GitHub.
+
+I followed the instructions to link my local repository to GitHub:
+
+sh
+Copy code
+git remote add origin https://github.com/yourusername/your-repository.git
+git branch -M main
+git push -u origin main
+4. Install Necessary Programming Languages and Runtimes
+Step 8: Install Python
+I went to the Python download page.
+
+I downloaded the installer for the latest version.
+
+I ran the installer and made sure to check "Add Python to PATH" during installation.
+
+I verified the installation by opening a terminal and typing:
+
+sh
+Copy code
+python --version
+5. Install Package Managers
+Step 9: Install pip
+Pip is installed by default with Python. I verified by typing:
+
+sh
+Copy code
+pip --version
+6. Configure a Database (MySQL)
+Step 10: Download and Install MySQL
+I went to the MySQL download page.
+I downloaded the installer and ran it.
+I followed the prompts to install MySQL.
+I set up a root password and configured MySQL as needed.
+7. Set Up Development Environments and Virtualization (Optional)
+Step 11: Install Docker (Optional)
+I went to the Docker download page.
+
+I downloaded and installed Docker Desktop.
+
+I followed the installation prompts and verified by running:
+
+sh
+Copy code
+docker --version
+8. Explore Extensions and Plugins
+Step 12: Install Extensions in Visual Studio Code
+I opened Visual Studio Code.
+I went to the Extensions view by clicking the Extensions icon in the Activity Bar on the side of the window.
+I searched for and installed useful extensions like:
+Python
+GitLens
+Docker
+Prettier - Code formatter
+ESLint
+9. Document Your Setup
+Step 13: Create Documentation
+I created a comprehensive document detailing the setup process.
+I included screenshots of each step where necessary.
+I documented any configurations, customizations, or troubleshooting steps encountered.
+10. Reflection
+Step 14: Reflect on the Challenges and Solutions
+I documented any challenges faced during the setup.
+I described the strategies employed to overcome them.
+Deliverables
+Setup Documentation
+
+I included step-by-step instructions with screenshots.
+GitHub Repository
+
+I created a sample project initialized with Git and necessary configuration files.
+Link to GitHub Repository
+Reflection Document
+
+I outlined the challenges faced and solutions implemented.
+Submission
+I submitted the setup documentation and GitHub repository link via the designated platform or emailed it to the instructor by the specified deadline.
+
+
+
+
+
+
+
